@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+
+
+<head>
+
+	<title>calculator</title>
+	<link rel="stylesheet" href="calculator.css">
+	<script src="calculate.js"></script>
+</head>
+
+
+<body>
+
+	<div class="container">
+
+		<div class="title">
+			<p>Grade Calculator</p>
+		</div>
+		
+		
+		<div class="content-main">
+			<p class="activities">Activities</p>
+			<p class="tips">Give grades to the numeric activities:<p> 
+			
+			
+			<table class="calculator" id="getelement">
+			
+				<tr>
+					<th class="head">Name</th>
+					<th class="head">Short Name</th>
+					<th class="head">Grade</th>
+					<th class="head">Percentage</th>
+				</tr>
+				
+				<tr>
+					<td class="content">Activity 1</td>
+					<td class="content">A1</td>
+					<td class="content">
+						<form>
+							<input name="t1" type="text" value="" size="10">
+							/
+							<input name="t2" type="text" value="" size="10">  
+						</form>
+					</td>
+					<td class="content" id="percentage-a1"></td>
+				</tr>
+			
+				<tr>
+					<td class="content">Activity 2</td>
+					<td class="content">A2</td>
+					<td class="content">
+						<form>
+							<input name="t1" type="text" value="" size="10">
+							/
+							<input name="t2" type="text" value="" size="10">  
+						</form>
+					</td>
+					<td class="content" id="percentage-a2"></td>
+				</tr>
+				
+				<tr>
+					<td class="content">Activity 3</td>
+					<td class="content">A3</td>
+					<td class="content">
+						<form>
+							<input name="t1" type="text" value="" size="10">
+							/
+							<input name="t2" type="text" value="" size="10">  
+						</form>
+					</td>
+					<td class="content" id="percentage-a3"></td>
+				</tr>				
+				
+				<tr>
+					<td class="content">Activity 4</td>
+					<td class="content">A4</td>
+					<td class="content">
+						<form>
+							<input name="t1" type="text" value="" size="10">
+							/
+							<input name="t2" type="text" value="" size="10">  
+						</form>
+					</td>
+					<td class="content" id="percentage-a4"></td>
+				</tr>
+					
+				<tr>
+					<td class="total"> <br>TOTAL</td>
+					<td class="total"> <br> </td>
+					<td class="total"> <br> </td>
+					<td id="result" class="total"> <br> </td>
+				</tr>							
+		
+			</table>
+		
+			<p class="tools">
+				<button onclick="reset()" class="tools-font">RESET</button>
+				<button onclick="average()" class="tools-font">AVERAGE</button>	
+				<button onclick="mean()" class="tools-font">MEANS</button>
+			</p>
+
+			
+		</div>
+		
+		
+		
+		
+	</div>
+
+
+</body>
+
+
+
+
+</html>
